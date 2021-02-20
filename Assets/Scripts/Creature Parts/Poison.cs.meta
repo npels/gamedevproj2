@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 5314f07235c6336419b4155c87225d61
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - poisonCloudPrefab: {fileID: 3188884190856613884, guid: a3f87b3999bcec947af6f29f4b402d23,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
