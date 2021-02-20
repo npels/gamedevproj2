@@ -135,13 +135,11 @@ public class Creature : MonoBehaviour {
     public void CheckParts() {
         numEyes = 0;
         numPoison = 0;
-        foreach (CreaturePart part in parts) {
-            if (part.GetComponentInChildren<Eye>()) {
-                numEyes++;
-            }
-            if (part.GetComponentInChildren<Poison>()) {
-                numPoison++;
-            }
+        foreach (Eye eye in GetComponentsInChildren<Eye>()) {
+            numEyes++;
+        }
+        foreach (Poison poison in GetComponentsInChildren<Poison>()) {
+            numPoison++;
         }
     }
 
